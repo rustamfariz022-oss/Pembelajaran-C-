@@ -19,4 +19,19 @@ int main(){
     else if(umur<18 && buat_sim){
         cout<<"umur belum cukup"<<endl;
     }
+
+      //operator or( || ),hanya butuh 1 true agar pernyataan benar//
+    cout<<"Masukkan ketinggian air dalam meter"<<endl;
+    cout<<"Tekan tombol darurat?"<<endl;
+    string pilihan;
+    int meter_air;
+    cin>>meter_air;
+    cin>>pilihan;
+
+    if( meter_air>=2 || pilihan=="iya"){
+        cout<<"Mengaktifkan pompa air"<<endl;
+    }
+    else if(meter_air=0 || pilihan=="tidak"){
+        cout<<"pompa tidak nyala"<<endl;
+    }
 }
