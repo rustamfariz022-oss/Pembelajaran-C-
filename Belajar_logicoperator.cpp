@@ -31,7 +31,16 @@ int main(){
     if( meter_air>=2 || pilihan=="iya"){
         cout<<"Mengaktifkan pompa air"<<endl;
     }
-    else if(meter_air=0 || pilihan=="tidak"){
+    else if(meter_air==0 || pilihan=="tidak"){
         cout<<"pompa tidak nyala"<<endl;
+    }
+
+        ///Operator Not(!),membalikkan kebearan. true=false false=true
+    bool mobil=false;
+    if(!mobil){
+        cout<<"jalan"<<endl;
+    }
+    else{
+        cout<<"anda butuh mobil"<<endl;
     }
 }
