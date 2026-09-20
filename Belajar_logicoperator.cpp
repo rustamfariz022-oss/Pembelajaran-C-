@@ -36,9 +36,9 @@ int main(){
     }
 
         ///Operator Not(!),membalikkan kebearan. true=false false=true
-    bool mobil=false;
+    bool mobil=true;
     if(!mobil){
-        cout<<"jalan"<<endl;
+        cout<<"tidak jalan"<<endl;
     }
     else{
         cout<<"anda butuh mobil"<<endl;
