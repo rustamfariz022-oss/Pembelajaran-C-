@@ -10,7 +10,7 @@ int main(){
     char indeks='b';  //ini char
 
     //cara memunculkan tipe data pada output
-    cout<<"angka:"<<angka<<endl;
+    cout<<"Angka:"<<angka<<endl;
     cout<<"Nama:"<<nama<<endl;
     cout<<"Kondisi:"<<boolean<<endl;
     cout<<"Float:"<<floati<<endl;
