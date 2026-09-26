@@ -9,5 +9,4 @@ int main(){
     cout<<"operator penjumlahan"<<endl;
     cout<<a<<"+"<<b<<"="<<hasil<<endl;   //hasilnya adalah 13//
     return 0;
-
 }
