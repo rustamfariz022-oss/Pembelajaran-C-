@@ -12,29 +12,23 @@ int main()
     std::cout << "4.Gorengan \t 8.000/piring";
 
     // pemberian variabel pada setiap item...//
-    int air = 3000;
-    int kopi = 7000;
-    int snack = 4000;
-    int gorengan = 8000;
+    int air_price= 3000;
+    int kopi_price= 7000;
+    int snack_price= 4000;
+    int gorengan_price= 8000;
     int jumlah_pesanan;
+    int pesanan=1,
 
-
-    //pemisalan variabel item
-    int air=1;
-    int kopi=2;
-    int snack=3;
-    int gorengan=4;
 
 
     // pemesanan//
     char out;
-    int pesanan = air, kopi, snack, gorengan;
     do
     {
         char pesan;
         do
         {
-            std::cout << "Apa yang ingin anda pesan?" << endl;
+            std::cout << "Apa yang ingin anda pesan?\n 1 untuk air mineral \n 2 untuk kopi\n 3 untuk snack\n 4 untuk gorengan" << endl;
             cin >> pesanan;
             cout<<"apa masih ada yang ingin anda pesan?"<<endl;
             cin>>pesan;
@@ -45,7 +39,7 @@ int main()
         std::cout << "Apa masih ada pesanan lagi?(y/n)" << endl;
         cin >> out;
     } while (out == 'Y' || out == 'y');
-    std::cout << "pesanan akan segera............" << endl;
+    std::cout << "pesanan akan segera dibuat............" << endl;
 
     // proses perhitungan..
     int harga = pesanan * jumlah_pesanan;
