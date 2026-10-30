@@ -8,7 +8,10 @@ int main()
 {
     int pilihan1;
     int pilihan2;
+    int pilihan3;
     int jumlah;
+    //int jumlah_setelah_tambahan;
+    char tambahan;
     string answer;
     cout << "Ingin Berbelanja?\n1=iya\n2=tidak" << endl;
     cin >> pilihan1;
@@ -25,31 +28,98 @@ int main()
         switch (pilihan2)
         {
         case 1:
-            cout<<"berapa banyak?"<<endl;
-            cin>>jumlah;
+            cout << "berapa banyak?" << endl;
+            cin >> jumlah;
+            cout << "ada barang tambahan?" << endl;
+            cin >> tambahan;
+            if (tambahan == 'Y' || tambahan == 'y')
+            {
+                cout << "apa yang ingin anda pesan?\n1=Pensil\n2=Pulpen\n3=Buku\n4=Binder" << endl;
+                switch (pilihan3)
+                {
+                case 1:
+                    cout << "berapa banyak?" << endl;
+                    cin >> jumlah;
+                    cout << "ada barang tambahan?" << endl;
+                    cin >> tambahan;
+                }
+            }
+            else
+            {
+                cout << "Terima kasih" << endl;
+            }
             break;
         case 2:
-            cout<<"berapa banyak?"<<endl;
-            cin>>jumlah;
+            cout << "berapa banyak?" << endl;
+            cin >> jumlah;
+            cout << "ada barang tambahan?" << endl;
+            cin >> tambahan;
+            if (tambahan == 'Y' || tambahan == 'y')
+            {
+                cout << "apa yang ingin anda pesan?\n1=Pensil\n2=Pulpen\n3=Buku\n4=Binder" << endl;
+                switch (pilihan3)
+                {
+                case 1:
+                    cout << "berapa banyak?" << endl;
+                    cin >> jumlah;
+                    cout << "ada barang tambahan?" << endl;
+                    cin >> tambahan;
+                }
+            }
+            else
+            {
+                cout << "Terima kasih" << endl;
+            }
             break;
         case 3:
-            cout<<"berapa banyak?"<<endl;
-            cin>>jumlah;
+            cout << "berapa banyak?" << endl;
+            cin >> jumlah;
+            cout << "ada barang tambahan?" << endl;
+            cin >> tambahan;
+            if (tambahan == 'Y' || tambahan == 'y')
+            {
+                cout << "apa yang ingin anda pesan?\n1=Pensil\n2=Pulpen\n3=Buku\n4=Binder" << endl;
+                switch (pilihan3)
+                {
+                case 1:
+                    cout << "berapa banyak?" << endl;
+                    cin >> jumlah;
+                    cout << "ada barang tambahan?" << endl;
+                    cin >> tambahan;
+                }
+            }
+            else
+            {
+                cout << "Terima kasih" << endl;
+            }
             break;
         case 4:
-            cout<<"berapa banyak?"<<endl;
-            cin>>jumlah;
+            cout << "berapa banyak?" << endl;
+            cin >> jumlah;
+            cout << "ada barang tambahan?" << endl;
+            cin >> tambahan;
+            if (tambahan == 'Y' || tambahan == 'y')
+            {
+                cout << "apa yang ingin anda pesan?\n1=Pensil\n2=Pulpen\n3=Buku\n4=Binder" << endl;
+                switch (pilihan3)
+                {
+                case 1:
+                    cout << "berapa banyak?" << endl;
+                    cin >> jumlah;
+                    cout << "ada barang tambahan?" << endl;
+                    cin >> tambahan;
+                }
+            }
+            else
+            {
+                cout << "Terima kasih" << endl;
+            }
             break;
 
         default:
+            cout << "program error" << endl;
             break;
         }
-
-        do
-        {
-
-        } while (answer == "y" || answer == "Y");
-
         break;
 
     case 2:
@@ -57,6 +127,7 @@ int main()
         break;
 
     default:
+        cout << "program error" << endl;
         break;
     }
 }
